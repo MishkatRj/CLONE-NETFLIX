@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .background-banner {
+    background-image: linear-gradient(
+        45deg,
+        rgb(51 43 43 / 75%),
+        rgb(20 19 20 / 61%)
+      ),
+      url(bg-img.jpeg);
+    max-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .home-content {
+    height: 100vh;
+  }
+  
+  .home-content h1 {
+    color: white;
+    font-size: 3.125rem;
+    font-weight: bold;
+    padding-left: 54px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+  }
+  
+  .footer-custom ul li {
+    list-style: none;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  /* netflix content image css */
+  .netflix-content:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  /* footer arrow css */
+  .arrow {
+    float: right;
+    border: 2px solid white;
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .arrow:hover {
+    cursor: pointer;
+  }
+  
+
+  .faq {
+    /* height: 70vh; */
+    margin-bottom: 3px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+  .faq h1 {
+    padding: 1em;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+  }
+  .btn-faq {
+    background-color: #434343;
+    height: 50px;
+    width: 40vw;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 1em;
+    align-items: center;
+    font-size: large;
+    font-weight: 400;
+  }
+  .card-body1 {
+    width: 40vw;
+    border-radius: 0%;
+  }
+  .card {
+    background-color: #434343 !important;
+    color: #fff !important;
+    padding: 0.5em;
+    margin: 0.2em;
+  }
+  .faq p {
+    color: white;
+  }
+  .main-search{
+    margin: 1em;
+  }
+  .fotter{
+    height: 5vh;
+    /* border: 2px solid red; */
+    background-color: black;
+  }
+  .fotter h3{
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    font-weight: 400;
+    padding: 1em;
+  }
+  .fotter a{
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: 400;
+  }
+  
+ 
